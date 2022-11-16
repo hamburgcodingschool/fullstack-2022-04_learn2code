@@ -8,9 +8,9 @@
 
 - [Lesson Summary](https://...)
 
-- [Handout](https://...)
+- [Handout](https://github.com/hamburgcodingschool/fullstack-2022-04_learn2code/blob/master/docs/Handout%20-%20Learn%20to%20Code.pdf)
 
-- [Outline](https://...)
+- [Outline](https://github.com/hamburgcodingschool/fullstack-2022-04_learn2code/blob/master/docs/Handout%20-%20Learn%20to%20Code.pdf)
 
 
 ### 🤔 Questions?
