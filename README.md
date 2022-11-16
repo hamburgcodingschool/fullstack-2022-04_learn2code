@@ -2,7 +2,7 @@
 ## Full Stack Course - 14.02.2022
 ### ✏️ Homework
 
-- [Homework 1](https://github.com/hamburgcodingschool/fullstack-2022-04_learn2code/blob/main/homework/homework_1.md)
+- [Homework 1](https://github.com/hamburgcodingschool/fullstack-2022-04_learn2code/blob/master/homework/homework_1.md)
 
 ### 📄 Docs
 
