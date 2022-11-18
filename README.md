@@ -4,6 +4,8 @@
 
 - [Homework 1](https://github.com/hamburgcodingschool/fullstack-2022-04_learn2code/blob/master/homework/homework_1.md)
 - [Homework 2](https://github.com/hamburgcodingschool/fullstack-2022-04_learn2code/blob/master/homework/homework_2.md)
+- [Homework 3](https://github.com/hamburgcodingschool/fullstack-2022-04_learn2code/blob/master/homework/homework_3.md)
+- [Homework 4](https://github.com/hamburgcodingschool/fullstack-2022-04_learn2code/blob/master/homework/homework_4.md)
 
 ### 📄 Docs
 
