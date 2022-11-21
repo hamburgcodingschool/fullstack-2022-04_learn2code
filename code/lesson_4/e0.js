@@ -1,4 +1,3 @@
-
 ages = [12, 16, 24]
 
 // E0. Print all the ages in the array in reverse order;
@@ -36,3 +35,4 @@ console.log("The sum of the array elements is " + sum);
 // E Optional
 // Find the maximum and the minimum values in the array.
 // Find the amplitude ("difference between max and min") of the array.
+
