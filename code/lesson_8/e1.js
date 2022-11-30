@@ -20,7 +20,7 @@ let prices = [10, 20, 30, 40, 50]
 
 prices.forEach((value, index, array) => {
     console.log(value);
-    array[index] += value*0.1;
+    array[index] += value * 0.1;
 })
 
 console.log(prices);
