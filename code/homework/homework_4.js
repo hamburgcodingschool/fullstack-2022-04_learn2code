@@ -16,22 +16,47 @@ readlinesync = require("readline-sync");
 // }
 
 
-number = 77
-
-input = Number(readlinesync.question("Guess my secret number:\n"))
-console.log(typeof(input))
-counter = 1
-
-while (input !== number) {
-  counter +=1
-  if (input < number) {
-    input = Number(readlinesync.question("Too small.\n"))
-    console.log(typeof(input))
-  } else if (input > number) {
-    input = Number(readlinesync.question("Too big.\n"))
-    console.log(typeof(input))  
-  }
-}
-console.log(`Congrats! The number is ${input}! And it took your dumb ass "only" ${counter} times!`)
 
 // console.log(song)
+
+function getInput(){
+  return Number(readlinesync.question("Guess my secret number:\n"));
+}
+
+// Plays a game with the user
+// Returns: a number representing the number of guesses
+function playGuessingGame() {
+  // hardcoding
+  // number = 77
+
+  // random number
+  number = Math.round(Math.random()*100);
+  console.log(number);
+
+  input = getInput();
+  console.log(typeof (input))
+  counter = 1
+
+  while (input !== number) {
+    counter += 1
+    if (input < number) {
+      input = Number(readlinesync.question("Too small.\n"))
+      console.log(typeof (input))
+    } else if (input > number) {
+      input = Number(readlinesync.question("Too big.\n"))
+      console.log(typeof (input))
+    }
+  }
+  return counter;
+}
+
+let numberOfAttempts1 = playGuessingGame();
+console.log(`Congrats! It took your dumb ass "only" ${numberOfAttempts1} times!`)
+
+let numberOfAttempts2 = playGuessingGame();
+console.log(`Congrats! It took your dumb ass "only" ${numberOfAttempts2} times!`)
+
+let numberOfAttempts3 = playGuessingGame();
+console.log(`Congrats! It took your dumb ass "only" ${numberOfAttempts3} times!`)
+
+

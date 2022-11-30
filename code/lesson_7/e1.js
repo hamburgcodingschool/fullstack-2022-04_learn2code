@@ -11,10 +11,12 @@ for (let i = 0; i<arr.length; i++){
 console.log(sum); // should output 54
 
 
-let sum1 = arr.foreach(element=>{
-    sum += element
+sum = 0;
+arr.forEach((value, index, array)=>{
+    sum += value
 });
-console.log(sum1) // should output 54
+
+console.log(sum) // should output 54
 
 // Count appearences of specific letter in an array;
 arr = ['a', 'b', 'c', 'd', 'e', 'f', 'a']
@@ -24,6 +26,8 @@ for (let i = 0; i<arr.length; i++){
         countA += 1;
     }
 }
+
+
 
 
 console.log(countA);
